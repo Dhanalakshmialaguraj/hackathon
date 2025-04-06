@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>AI-Powered Farming Assistant</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <h1>🌾 AI Farming Assistant</h1>
+
+  <div id="weather">Fetching weather...</div>
+  <div id="advice"></div>
+
+  <div>
+    <select id="language">
+      <option value="en">English</option>
+      <option value="hi">Hindi</option>
+      <option value="ta">Tamil</option>
+      <option value="bn">Bengali</option>
+    </select>
+  </div>
+
+  <div class="chat-container">
+    <div id="messages"></div>
+    <input type="text" id="userInput" placeholder="Ask something..."/>
+    <button onclick="sendMessage()">Send</button>
+    <button onclick="startVoice()">🎤 Speak</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
