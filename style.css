@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background: #f0f8ff;
+    color: #333;
+  }
+  
+  h1 {
+    color: #2e8b57;
+  }
+  
+  #weather, #advice {
+    margin: 10px 0;
+    font-weight: bold;
+  }
+  
+  .chat-container {
+    border: 1px solid #ccc;
+    padding: 10px;
+    background: #fff;
+    max-width: 400px;
+  }
+  
+  #messages {
+    height: 200px;
+    overflow-y: scroll;
+    border: 1px solid #ddd;
+    padding: 5px;
+    margin-bottom: 10px;
+    background: #fafafa;
+  }
+  
+  #userInput {
+    width: 60%;
+  }
+  
+  button {
+    margin-left: 5px;
+  }
+  
